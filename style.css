@@ -1,7 +1,8 @@
-div {
+.rat-container {
     border: 1px solid black;
     width: 500px;
     height: 500px;
+    position: relative;
 }
 
 button {
@@ -10,4 +11,9 @@ button {
     font-size: 20px;
     margin-left: 150px;
     margin-top: 10px;
+}
+
+.cool-rat {
+    /* border: 1px solid red; */
+    position: absolute;
 }
